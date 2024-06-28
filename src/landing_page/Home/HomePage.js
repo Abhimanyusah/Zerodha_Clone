@@ -1,5 +1,5 @@
 import React from 'react';
-import Awards from './Award';
+import Awards from './Awards';
 import Pricing from './Pricing';
 import Education from './Education';
 import Stats from './Stats';
@@ -11,6 +11,7 @@ import Navbar from '../Navbar';
 function    HomePage() {
     return ( 
         <>
+        <Navbar />
         <Hero />
         <Awards />
         <Stats />
@@ -18,7 +19,7 @@ function    HomePage() {
         <Education />
         <OpenAccount />
         <Footer />
-        <Navbar />
+        
         </>
      );
 }
